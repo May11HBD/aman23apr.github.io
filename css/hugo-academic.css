@@ -363,7 +363,7 @@ ul.ul-edu li {
 	list-style: none;	
 	background-repeat: no-repeat;
     background-position: left center;
-    background-size: 40px;
+    background-size: 30px;
 }
 
 ul.ul-edu li .description p {
@@ -407,8 +407,8 @@ ul.share li:last-of-type {
 
 ul.share li .fa {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   line-height: 30px;
   font-size: 16px;
   text-align: center;
