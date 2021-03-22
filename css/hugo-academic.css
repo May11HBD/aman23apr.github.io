@@ -1068,7 +1068,7 @@ nav#navbar-main li {
  *  Tables
  **************************************************/
 
-table {
+/* table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -1107,19 +1107,19 @@ table > tbody + tbody {
 
 table table {
   background-color: #fff;
-}
+}*/
 
 /* Table Striped */
-table > tbody > tr:nth-child(odd) > td,
+/*table > tbody > tr:nth-child(odd) > td,
 table > tbody > tr:nth-child(odd) > th {
   background-color: #f9f9f9;
-}
+}*/
 
 /* Table Hover */
-table > tbody > tr:hover > td,
+/*table > tbody > tr:hover > td,
 table > tbody > tr:hover > th {
   background-color: #e5e5e5;
-}
+}*/
 
 /*************************************************
  *  Alerts
