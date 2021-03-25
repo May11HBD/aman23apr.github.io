@@ -61,6 +61,7 @@ body {
   counter-reset: captions;
   
 }
+
 @media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
   body {
     margin-top: 20px; /* Offset body content by navbar height. */
@@ -817,7 +818,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  background: rgb(68, 119, 207);
+  border-color: #0095eb;
+  background: #0095eb;
 }
 
 .btn-primary:hover,
@@ -825,7 +827,7 @@ footer a#back_to_top i {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  background: cyan;
+  background: #0095eb;
 }
 
 /*************************************************
@@ -868,7 +870,7 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: #023350;
+  color: #0095eb;
   border-color: #0095eb;
 }
 
