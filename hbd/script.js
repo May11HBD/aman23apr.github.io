@@ -115,7 +115,7 @@ const store = {
 
 	state: {
 		// will be unpaused in init()
-		paused: false,
+		paused: true,
 		soundEnabled: true,
 		menuOpen: false,
 		openHelpTopic: null,
