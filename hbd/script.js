@@ -243,7 +243,7 @@ function togglePause(toggle) {
 function toggleSound(toggle) {
 	if (typeof toggle === 'boolean') {
 		store.setState({ soundEnabled: toggle });
-		function() {
+		function music() {
 			document.getElementById("music").play();
 	                console.log("Now, play music.mp3");
 		}
