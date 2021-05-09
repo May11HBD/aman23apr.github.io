@@ -76,8 +76,6 @@ const stages = [
 window.onload = function() {
 	alert("Hey! Sounds On!");
 	document.getElementById("music").resume();
-	document.getElementById("music").play();
-	console.log("Now, play music.mp3");
 }
 
 
@@ -123,7 +121,7 @@ const store = {
 	state: {
 		// will be unpaused in init()
 		paused: true,
-		soundEnabled: true,
+		soundEnabled: false,
 		menuOpen: false,
 		openHelpTopic: null,
 		fullscreen: isFullscreen(),
@@ -246,6 +244,8 @@ function togglePause(toggle) {
 function toggleSound(toggle) {
 	if (typeof toggle === 'boolean') {
 		store.setState({ soundEnabled: toggle });
+	        document.getElementById("music").play();
+	        console.log("Now, play music.mp3");
 	} else {
 		store.setState({ soundEnabled: !store.state.soundEnabled });
 	}
