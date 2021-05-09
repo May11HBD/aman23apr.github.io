@@ -74,7 +74,7 @@ const stages = [
 ];
 
 window.onload = function() {
-	alert("Hey! Sounds on, hit the audio button.");
+	alert("Hey! Sounds on, hit the audio button. Trial1");
 }
 
 
