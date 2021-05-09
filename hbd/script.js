@@ -73,6 +73,10 @@ const stages = [
 	mainStage
 ];
 
+window.onload = function() {
+	document.getElementById("music").play();
+}
+
 
 
 // Fullscreen helpers, using Fscreen for prefixes.
