@@ -74,8 +74,7 @@ const stages = [
 ];
 
 window.onload = function() {
-	alert("Hey! Sounds On!");
-	document.getElementById("music").resume();
+	alert("Hey! Sounds on, hit the audio button.");
 }
 
 
